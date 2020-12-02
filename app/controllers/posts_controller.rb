@@ -20,4 +20,5 @@ class PostsController < ApplicationController
     end
     item = Post.find(params[:id])
     render json:{post: item}
- end
+  end
+end
